@@ -350,18 +350,19 @@ a {
     font-size: 0.8vw;
 }
 
-p {
-    margin: 12px
-}
-
 .txt {
     font-size: 0.8vw;
+    margin: 16px 0;
 }
-
+.sla{
+    text-decoration: none;
+}
 .zig {
     text-decoration: none;
 }
-
+p{
+    height: 1vw
+}
 .direita {
     text-align: right;
     width: 50%;
