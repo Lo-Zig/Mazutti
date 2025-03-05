@@ -1,0 +1,359 @@
+:root {
+    --fonte-titulo: 2.5vw;
+    --fonte-titulo-mobile: 2.1875vw;
+    --fonte-descricao: 0.9375vw;
+    --fonte-cards: 0.9896vw;
+    --fonte-titulo2: 1.875vw;
+    --fonte-descricao2: 0.9375vw;
+    --fonte-contato: 0.729vw;
+    --cor-vinho: #4d1423;
+    --cor-dourado: #e5ae52;
+    --cor-branco: #ffffff;
+    --cor-cinza: #525252;
+    --raio-de-borda: 0.625vw;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    padding: 1.042vw 27vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 0.104vw solid #ffffff;
+}
+
+.header .logo {
+    font-size: 0.833vw;
+    font-weight: 900;
+    color: black;
+}
+.button {
+    font-weight: 700;
+    padding: 0.52vw 1.042vw;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 0.417vw;
+    cursor: pointer;
+    font-size: 0.833vw;
+    transition: 300ms;
+}
+
+.button:hover {
+    transition: 300ms;
+    background-color: #5f5f5f;
+}
+
+.section1 {
+    padding: 0 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44.875vw;
+    font-family: 'Arial', sans-serif;
+}
+
+.section2 {
+    padding: 0 20vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 5.208vw;
+}
+
+.moldura-fora {
+    padding: 1.2vw;
+    width: 14.32vw;
+    height: 23.13vw;
+    border: 0.1vw solid rgb(65, 65, 65);
+    border-radius: 3.13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    animation: rotateMoldura 1s forwards;
+    animation-delay: 0.5s;
+}
+
+.moldura {
+    width: 15.63vw;
+    height: 23.44vw;
+    border: 0.1vw solid rgb(102, 102, 102);
+    border-radius: 2.08vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+
+.texto {
+    margin-left: 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 3.75vw;
+    color: #E9AE5A;
+    font-weight: 800;
+}
+
+.titulo-servico {
+    text-align: center;
+    font-size: 2.75vw;
+    color: #333333;
+    margin: 8vw 0;
+}
+
+.titulo-area {
+    text-align: center;
+    font-size: 2.75vw;
+    color: #333333;
+    margin: 8vw 0 12vw;
+}
+
+.descricao {
+    font-weight: 500;
+    font-size: 1.042vw;
+    text-align: justify;
+    color: #999999;
+}
+
+.image {
+    width: 100%;
+}
+
+.container-cards {
+    display: flex;
+    margin-bottom: 1.042vw;
+}
+
+/* From Uiverse.io by JohnnyCSilva */
+.card {
+    margin: 0 0.521vw;
+    width: 17vw;
+    height: 6vw;
+    -webkit-box-shadow: 0px 0px 2.031vw -1.146vw rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 2.031vw -1.146vw rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 2.031vw -1.146vw rgba(0, 0, 0, 0.75);
+    background: #ffffff;
+    border-radius: 1.042vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.img {
+    width: 2.604vw;
+    height: 2.604vw;
+    margin-left: 1vw;
+    border-radius: 0.521vw;
+}
+
+.img-1 {
+    background-image: url(/src/images/contrato.png);
+    background-size: cover;
+}
+
+.img-2 {
+    background-image: url(/src/images/divorcio.png);
+    background-size: cover;
+}
+
+.img-3 {
+    background-image: url(/src/images/emrego.png);
+    background-size: cover;
+}
+
+.img-4 {
+    background-image: url(/src/images/juridico.png);
+    background-size: cover;
+}
+
+.img-5 {
+    background-image: url(/src/images/predio.png);
+    background-size: cover;
+}
+
+.img-6 {
+    background-image: url(/src/images/trabalho.webp);
+    background-size: cover;
+}
+
+.img-7 {
+    background-image: url(/src/images/juridico.png);
+    background-size: cover;
+}
+
+.img-8 {
+    background-image: url(/src/images/procuracao.png);
+    background-size: cover;
+}
+
+.img-9 {
+    background-image: url(/src/images/compras.png);
+    background-size: cover;
+}
+
+.img-10 {
+    background-image: url(/src/images/inventario.png);
+    background-size: cover;
+}
+
+.img-11 {
+    background-image: url(/src/images/alimentos.png);
+    background-size: cover;
+}
+
+.img-12 {
+    background-image: url(/src/images/previdencia.png);
+    background-size: cover;
+}
+
+.textBox {
+    width: calc(100% - 4.688vw);
+    margin-left: 0.521vw;
+    color: #525252;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span {
+    font-size: 0.521vw;
+}
+
+.h1 {
+    color: black;
+    font-size: 0.9375vw;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 0.625vw;
+    font-weight: lighter;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 0.521vw;
+    box-shadow: 0 0.208vw 0.417vw rgba(0, 0, 0, 0.1);
+    width: 18vw;
+    overflow: hidden;
+}
+
+.wallpaper {
+    height: 10.417vw;
+    background-size: cover;
+}
+.wll-1{
+    background-image: url(/src/images/direito-administrativo.jpg);
+}
+.wll-2{
+    background-image: url(/src/images/direito-civil.jpg);
+}
+.wll-3{
+    background-image: url(/src/images/direito-constitucional.jpg);
+}
+.wll-4{
+    background-image: url(/src/images/justica-eleitoral.jpg);
+}
+.wll-5{
+    background-image: url(/src/images/direito-Penal.webp);
+}
+.wll-6{
+    background-image: url(/src/images/direito-previdenciario.webp);
+}
+.wll-7{
+    background-image: url(/src/images/Direito-Tributário.jpg);
+}
+.wll-8{
+    background-image: url(/src/images/Direito-do-Trabalho.jpg);
+}
+
+.card-content {
+    display: grid;
+    padding: 2.604vw 0.781vw;
+    height: 10.417vw;
+}
+
+.card-title {
+    font-size: 1.25vw;
+    font-weight: bold;
+    margin: 0 0 0.521vw 0;
+}
+
+.card-text {
+    font-size: 0.9375vw;
+    color: #555;
+    margin-bottom: 0.781vw;
+}
+.container-cards2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.042vw;
+    padding: 0 21vw;
+}
+
+.rodape{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    padding: 2vw 27vw;
+    margin-top: 12vw;
+}
+.esquerda{
+    width: 50%;
+}
+a{
+    color: white;
+    text-decoration: underline;
+    font-size: 0.8vw;
+}
+.txt{
+    font-size: 0.8vw;
+}
+.zig{
+    text-decoration: none;
+}
+.direita{
+    text-align: right;
+    width: 50%;
+}
+
+@keyframes rotateMoldura {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-5deg);
+    }
+}
