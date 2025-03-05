@@ -37,6 +37,7 @@ body {
     font-weight: 900;
     color: black;
 }
+
 .button {
     font-weight: 700;
     padding: 0.52vw 1.042vw;
@@ -273,28 +274,36 @@ body {
     height: 10.417vw;
     background-size: cover;
 }
-.wll-1{
+
+.wll-1 {
     background-image: url(/src/images/direito-administrativo.jpg);
 }
-.wll-2{
+
+.wll-2 {
     background-image: url(/src/images/direito-civil.jpg);
 }
-.wll-3{
+
+.wll-3 {
     background-image: url(/src/images/direito-constitucional.jpg);
 }
-.wll-4{
+
+.wll-4 {
     background-image: url(/src/images/justica-eleitoral.jpg);
 }
-.wll-5{
+
+.wll-5 {
     background-image: url(/src/images/direito-Penal.webp);
 }
-.wll-6{
+
+.wll-6 {
     background-image: url(/src/images/direito-previdenciario.webp);
 }
-.wll-7{
+
+.wll-7 {
     background-image: url(/src/images/Direito-Tributário.jpg);
 }
-.wll-8{
+
+.wll-8 {
     background-image: url(/src/images/Direito-do-Trabalho.jpg);
 }
 
@@ -315,6 +324,7 @@ body {
     color: #555;
     margin-bottom: 0.781vw;
 }
+
 .container-cards2 {
     display: flex;
     justify-content: space-evenly;
@@ -322,28 +332,37 @@ body {
     padding: 0 21vw;
 }
 
-.rodape{
+.rodape {
     background-color: #333333;
     color: white;
     display: flex;
     padding: 2vw 27vw;
     margin-top: 12vw;
 }
-.esquerda{
+
+.esquerda {
     width: 50%;
 }
-a{
+
+a {
     color: white;
     text-decoration: underline;
     font-size: 0.8vw;
 }
-.txt{
+
+p {
+    margin: 12px
+}
+
+.txt {
     font-size: 0.8vw;
 }
-.zig{
+
+.zig {
     text-decoration: none;
 }
-.direita{
+
+.direita {
     text-align: right;
     width: 50%;
 }
