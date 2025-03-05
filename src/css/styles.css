@@ -90,7 +90,7 @@ body {
     background-color: white;
     position: relative;
     animation: rotateMoldura 1s forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0s;
 }
 
 .moldura {
@@ -354,20 +354,47 @@ a {
     font-size: 0.8vw;
     margin: 16px 0;
 }
-.sla{
+
+.sla {
     text-decoration: none;
 }
+
 .zig {
     text-decoration: none;
 }
+
 .direita {
     text-align: right;
     width: 50%;
 }
 
+/* Defina a animação usando @keyframes */
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Aplique a animação ao elemento desejado */
+.texto {
+    animation: aparecer 0.7s ease-in-out;
+}
+
+
 @keyframes rotateMoldura {
     from {
-        transform: rotate(0deg);
+        transform: rotate(5deg);
     }
 
     to {
