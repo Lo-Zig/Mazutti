@@ -34,8 +34,9 @@ body {
     }
 
     .header .logo {
-        font-size: 0.833vw;
-        font-weight: 900;
+        font-size: 1vw;
+        letter-spacing: .1rem;
+        font-weight: 700;
         color: black;
     }
 
@@ -47,7 +48,7 @@ body {
         border: none;
         border-radius: 0.417vw;
         cursor: pointer;
-        font-size: 0.833vw;
+        font-size: 1vw;
         transition: 300ms;
     }
 
@@ -57,7 +58,7 @@ body {
     }
 
     .section1 {
-        padding: 0 27vw;
+        padding: 0 25vw;
         display: flex;
         justify-content: center;
         align-items: center;
