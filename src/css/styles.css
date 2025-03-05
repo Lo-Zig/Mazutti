@@ -365,9 +365,11 @@ body {
         text-align: right;
         width: 50%;
     }
-    .image-print{
+
+    .image-print {
         display: none;
     }
+
     /* Defina a animação usando @keyframes */
     @keyframes aparecer {
         0% {
@@ -437,17 +439,21 @@ body {
         background-color: #5f5f5f;
     }
 
-    .section1{
+    .section1 {
         align-items: center;
     }
+
     .container {
         padding: 10%;
         text-align: center;
         gap: 10vw;
     }
-    .image-print{
+
+    .image-print {
         width: 200px;
+        animation: rotateMoldura 1s forwards;
     }
+
     .moldura-fora {
         display: none;
     }
@@ -462,6 +468,7 @@ body {
         color: #E9AE5A;
         font-weight: 800;
     }
+
     .descricao {
         font-weight: 500;
         font-size: 4vw;
@@ -474,7 +481,7 @@ body {
         margin-bottom: 20px;
         padding: 3vw;
         background-color: #a2304c;
-        border-radius:3vw;
+        border-radius: 5vw;
         display: flex;
         align-items: center;
         justify-content: left;
@@ -493,7 +500,8 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .container-cards{
+
+    .container-cards {
         margin: 0 10px;
     }
 
@@ -545,10 +553,18 @@ body {
         background-image: url(/src/images/previdencia.png);
     }
 
-    #saiba, #saiba2, #saiba3, #saiba4, #saiba5, #saiba6, #saiba7, #saiba8{
+    #saiba,
+    #saiba2,
+    #saiba3,
+    #saiba4,
+    #saiba5,
+    #saiba6,
+    #saiba7,
+    #saiba8 {
         padding: 15px 0;
         margin-top: 20px;
-}
+    }
+
     .textBox {
         width: calc(100% - 4.688vw);
         margin-left: 3vw;
@@ -561,10 +577,12 @@ body {
         align-items: center;
         justify-content: space-between;
     }
+
     .h1 {
         color: #e5ae52;
         font-weight: bold;
     }
+
     .titulo-servico {
         text-align: center;
         font-size: 11vw;
@@ -574,16 +592,16 @@ body {
 
     .card2 {
         background-color: white;
-        border-radius: 4vw;
+        border-radius: 5vw;
         border: 0.1px solid black;
-        padding: 2px;
         margin: 20px;
         overflow: hidden;
     }
 
     .wallpaper {
         height: 300px;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .wll-1 {
@@ -634,7 +652,8 @@ body {
         color: #555;
         margin: 10vw 0;
     }
-    .titulo-area{
+
+    .titulo-area {
         text-align: center;
         font-size: 11vw;
         color: #333333;
@@ -643,15 +662,14 @@ body {
 
     .rodape {
         background-color: #333333;
+        text-align: center;
         color: white;
-        display: flex;
+        display: grid;
         padding: 5vw 5vw;
         margin-top: 12vw;
     }
 
-    .esquerda {
-        width: 50%;
-    }
+
 
     a {
         color: white;
@@ -670,9 +688,36 @@ body {
         text-decoration: none;
     }
 
-    .direita {
-        text-align: right;
-        width: 50%;
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+
+        50% {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
     }
 
+    /* Aplique a animação ao elemento desejado */
+    .texto {
+        animation: aparecer 0.7s ease-in-out;
+    }
+
+
+    @keyframes rotateMoldura {
+        from {
+            transform: rotate(10deg);
+        }
+
+        to {
+            transform: rotate(0deg);
+        }
+    }
 }
