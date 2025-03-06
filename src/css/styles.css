@@ -262,9 +262,9 @@ body {
 
     .card2 {
         background-color: white;
-        border-radius: 0.521vw;
+        border-radius: 1.4vw;
         box-shadow: 0 0.208vw 0.417vw rgba(0, 0, 0, 0.1);
-        width: 18vw;
+        width: 17vw;
         overflow: hidden;
     }
 
@@ -594,7 +594,7 @@ body {
         background-color: white;
         border-radius: 5vw;
         border: 0.1px solid black;
-        margin: 20px;
+        margin: 30px;
         overflow: hidden;
     }
 
