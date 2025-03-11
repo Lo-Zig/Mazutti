@@ -453,6 +453,10 @@ body {
     text-align: center;
     color: #333333;
 }
+.botao{ 
+    margin-top: 24px;
+    text-align: center;
+}
 
 @media screen and (max-width: 820px) {
     .section-ultima {
