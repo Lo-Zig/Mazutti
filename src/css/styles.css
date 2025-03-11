@@ -6,7 +6,6 @@
     --fonte-titulo2: 1.875vw;
     --fonte-descricao2: 0.9375vw;
     --fonte-contato: 0.729vw;
-    --cor-vinho: #4d1423;
     --cor-dourado: #e5ae52;
     --cor-branco: #ffffff;
     --cor-cinza: #525252;
@@ -142,6 +141,11 @@ body {
         width: 100%;
     }
 
+    .image-2 {
+        width: 100%;
+        border-radius: 24px;
+    }
+
     .container-cards {
         display: flex;
         margin-bottom: 1.042vw;
@@ -152,7 +156,7 @@ body {
         margin: 0 0.521vw;
         width: 17vw;
         height: 6vw;
-        background-color: #a2304c;
+        background-color: var(--cor-dourado);
         border-radius: 1.042vw;
         display: flex;
         align-items: center;
@@ -250,7 +254,7 @@ body {
     }
 
     .h1 {
-        color: #e5ae52;
+        color: #410c19;
         font-size: 0.9375vw;
         font-weight: bold;
     }
@@ -405,7 +409,85 @@ body {
     }
 }
 
+.section-ultima {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 8vw 0;
+}
+
+.text-content {
+    flex: 1 1 300px;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.text-content h1 {
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    padding: 0 3vw;
+    text-align: center;
+}
+
+.image-placeholder {
+    flex: 1 1 300px;
+    max-width: 700px;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-placeholder span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.titulo-equipe {
+    font-size: 2.75vw;
+    text-align: center;
+    color: #333333;
+}
+
 @media screen and (max-width: 820px) {
+    .section-ultima {
+        display: grid;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 8vw 0;
+    }
+    .image-2{
+        width: 100%;
+        border-radius: 24px;
+    }
+    .text-content {
+        flex: 1 1 300px;
+        max-width: 600px;
+        margin: 10px;
+    }
+
+    .text-content h1 {
+        margin-bottom: 10px;
+    }
+
+    .text-content p {
+        padding: 0 3vw;
+        text-align: center;
+    }
+
+    .titulo-equipe {
+        font-size: 11vw;
+        text-align: center;
+        color: #333333;
+    }
+
     .header {
         padding: 4vw;
         display: flex;
@@ -480,7 +562,7 @@ body {
         margin: 0 3vw;
         margin-bottom: 20px;
         padding: 3vw;
-        background-color: #a2304c;
+        background-color: #d45b79;
         border-radius: 5vw;
         display: flex;
         align-items: center;
