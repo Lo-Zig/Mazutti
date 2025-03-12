@@ -565,7 +565,7 @@ body {
         margin: 0 3vw;
         margin-bottom: 20px;
         padding: 3vw;
-        background-color: var(--cor-dourado)
+        background-color: var(--cor-dourado);
         border-radius: 5vw;
         display: flex;
         align-items: center;
@@ -579,10 +579,10 @@ body {
     }
 
     .img {
-        width: 58px;
-        height: 58px;
+        width: 48px;
+        height: 48px;
         margin-left: 1vw;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
     }
 
