@@ -685,7 +685,8 @@ body {
 
     .wallpaper {
         height: 300px;
-        background-size: contain;
+        background-size: cover;
+        max-height: 220px;
         background-repeat: no-repeat;
     }
 
